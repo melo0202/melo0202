@@ -1,0 +1,20 @@
+<?php
+$nome = "joãozinho123";
+$notas = array(
+    "brimestre 1" => 7,
+    "bimestre 2" => 9,
+    "bimestre 3" => 8,
+    "bimestre 4" => 10
+);
+$multiplicação = $notas;
+$media = ($notas[0]+$notas[1]+$notas[2]+$notas[3]);
+if ($media >= 7) {
+    echo "Status: Aprovado";
+} else 
+
+if ($media >= 7) {
+    echo "Status: Recuperação";
+} else {
+    echo "Status: Reprovado";
+}
+?>
